@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject.api", "TrainingProject.api.csproj", "{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C273F61B-5BEF-4E56-8EB4-4D9BB7D36A34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject.Domain", "..\TrainingProject.Domain\TrainingProject.Domain.csproj", "{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8C1FB001-C954-4620-8FB1-E3FFC66B88E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject.DAL", "..\TrainingProject.DAL\TrainingProject.DAL.csproj", "{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4} = {CF88468A-499E-450C-9BD7-29E3EB1307E3}
 		{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F} = {C273F61B-5BEF-4E56-8EB4-4D9BB7D36A34}
+		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D} = {8C1FB001-C954-4620-8FB1-E3FFC66B88E0}
 	EndGlobalSection
 EndGlobal
