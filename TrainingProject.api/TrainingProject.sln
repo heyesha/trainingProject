@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject.DAL", "..\TrainingProject.DAL\TrainingProject.DAL.csproj", "{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject.Application", "..\TrainingProject.Application\TrainingProject.Application.csproj", "{85A1F46E-ABF8-4331-A953-0FF877A2D245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A1F46E-ABF8-4331-A953-0FF877A2D245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A1F46E-ABF8-4331-A953-0FF877A2D245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A1F46E-ABF8-4331-A953-0FF877A2D245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A1F46E-ABF8-4331-A953-0FF877A2D245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 		{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4} = {CF88468A-499E-450C-9BD7-29E3EB1307E3}
 		{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F} = {C273F61B-5BEF-4E56-8EB4-4D9BB7D36A34}
 		{6C720414-F5E0-4862-BD3F-4A09DF0C1A3D} = {8C1FB001-C954-4620-8FB1-E3FFC66B88E0}
+		{85A1F46E-ABF8-4331-A953-0FF877A2D245} = {C273F61B-5BEF-4E56-8EB4-4D9BB7D36A34}
 	EndGlobalSection
 EndGlobal
