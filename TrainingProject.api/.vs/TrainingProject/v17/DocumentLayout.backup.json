@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\interfaces\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\enum\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\interfaces\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\result\\baseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -47,32 +50,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ErrorCodes.cs",
+              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
+              "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
+              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
+              "RelativeToolTip": "..\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:36:08.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ReportService.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Services\\ReportService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\ReportService.cs",
               "RelativeToolTip": "..\\TrainingProject.Application\\Services\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T13:59:06.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IReportService.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "RelativeToolTip": "..\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T13:41:10.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CollectionResult.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\CollectionResult.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Result\\CollectionResult.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BaseResult.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\BaseResult.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Result\\BaseResult.cs",
@@ -98,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

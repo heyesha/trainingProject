@@ -70,11 +70,38 @@ namespace TrainingProject.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Отчёт с таким названием уже есть.
+        /// </summary>
+        internal static string ReportAlreadyExists {
+            get {
+                return ResourceManager.GetString("ReportAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Отчёт не найден.
+        /// </summary>
+        internal static string ReportNotFound {
+            get {
+                return ResourceManager.GetString("ReportNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Отчёты не найдены.
         /// </summary>
         internal static string ReportsNotFound {
             get {
                 return ResourceManager.GetString("ReportsNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пользователь не найден.
+        /// </summary>
+        internal static string UserNotFound {
+            get {
+                return ResourceManager.GetString("UserNotFound", resourceCulture);
             }
         }
     }

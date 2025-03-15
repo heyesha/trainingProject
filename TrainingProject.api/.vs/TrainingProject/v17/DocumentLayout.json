@@ -6,16 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\enum\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\interfaces\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\result\\baseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\result\\collectionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\validations\\reportvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.api.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,15 +43,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorCodes.cs",
-              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
-              "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
-              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
-              "RelativeToolTip": "..\\TrainingProject.Domain\\Enum\\ErrorCodes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReportValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Validations\\ReportValidator.cs",
+              "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Validations\\ReportValidator.cs",
+              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Validations\\ReportValidator.cs",
+              "RelativeToolTip": "..\\TrainingProject.Application\\Validations\\ReportValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:36:08.329Z",
+              "WhenOpened": "2025-03-15T11:40:52.133Z",
               "EditorCaption": ""
             },
             {
@@ -68,59 +62,33 @@
               "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Services\\ReportService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\ReportService.cs",
               "RelativeToolTip": "..\\TrainingProject.Application\\Services\\ReportService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAQwMkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:59:06.118Z",
+              "WhenOpened": "2025-03-15T11:08:05.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IReportService.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
               "RelativeToolTip": "..\\TrainingProject.Domain\\Interfaces\\Services\\IReportService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:41:10.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CollectionResult.cs",
-              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\CollectionResult.cs",
-              "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Result\\CollectionResult.cs",
-              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\CollectionResult.cs",
-              "RelativeToolTip": "..\\TrainingProject.Domain\\Result\\CollectionResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:49:33.235Z",
+              "WhenOpened": "2025-03-15T11:09:29.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BaseResult.cs",
-              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\BaseResult.cs",
-              "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Result\\BaseResult.cs",
-              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Result\\BaseResult.cs",
-              "RelativeToolTip": "..\\TrainingProject.Domain\\Result\\BaseResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:43:25.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T07:43:04.19Z",
               "EditorCaption": ""
