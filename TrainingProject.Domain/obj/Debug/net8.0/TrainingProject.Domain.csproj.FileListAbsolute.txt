@@ -1,0 +1,12 @@
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\bin\Debug\net8.0\TrainingProject.Domain.deps.json
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\bin\Debug\net8.0\TrainingProject.Domain.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\bin\Debug\net8.0\TrainingProject.Domain.pdb
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.AssemblyInfoInputs.cache
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.AssemblyInfo.cs
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.sourcelink.json
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\refint\TrainingProject.Domain.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.pdb
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\ref\TrainingProject.Domain.dll

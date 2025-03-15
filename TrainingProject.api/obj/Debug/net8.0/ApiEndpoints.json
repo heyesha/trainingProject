@@ -1,23 +1,42 @@
 [
   {
-    "ContainingType": "TrainingProject.api.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "Method": "GetReport",
+    "RelativePath": "api/v1/ReportConroller/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TrainingProject.api.WeatherForecast, TrainingProject.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "TrainingProject.Domain.Result.BaseResult\u00601[[TrainingProject.Domain.Dto.Report.ReportDto, TrainingProject.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

@@ -1,4 +1,4 @@
 ﻿namespace TrainingProject.Domain.Dto.Report
 {
-    public record ReportDto(long Id, string Name, string Description, string DataCreated);
+    public record ReportDto(long Id, string Name, string Description, string DateCreated);
 }

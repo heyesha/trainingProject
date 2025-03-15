@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.api.csproj": {}
+    "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.api.csproj": {
+    "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.api.csproj",
-        "projectName": "TrainingProject.api",
-        "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.api.csproj",
+        "projectUniqueName": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.Api.csproj",
+        "projectName": "TrainingProject.Api",
+        "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.Api.csproj",
         "packagesPath": "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,6 +32,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\TrainingProject.Application.csproj": {
+                "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\TrainingProject.Application.csproj"
+              },
               "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.DAL\\TrainingProject.DAL.csproj": {
                 "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.DAL\\TrainingProject.DAL.csproj"
               }
@@ -58,6 +61,10 @@
               "target": "Package",
               "version": "[1.21.0, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -78,6 +85,93 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\TrainingProject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\TrainingProject.Application.csproj",
+        "projectName": "TrainingProject.Application",
+        "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\TrainingProject.Application.csproj",
+        "packagesPath": "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rodion Kondrashin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\TrainingProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\TrainingProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

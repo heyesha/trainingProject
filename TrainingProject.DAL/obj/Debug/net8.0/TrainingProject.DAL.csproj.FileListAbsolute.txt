@@ -1,0 +1,16 @@
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\bin\Debug\net8.0\TrainingProject.DAL.deps.json
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\bin\Debug\net8.0\TrainingProject.DAL.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\bin\Debug\net8.0\TrainingProject.DAL.pdb
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\bin\Debug\net8.0\TrainingProject.Domain.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\bin\Debug\net8.0\TrainingProject.Domain.pdb
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.csproj.AssemblyReference.cache
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.AssemblyInfoInputs.cache
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.AssemblyInfo.cs
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.sourcelink.json
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\Training.E67AAEC6.Up2Date
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\refint\TrainingProject.DAL.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\TrainingProject.DAL.pdb
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.DAL\obj\Debug\net8.0\ref\TrainingProject.DAL.dll

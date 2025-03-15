@@ -11,10 +11,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TrainingProject.Application\TrainingProject.Application.csproj" />
     <ProjectReference Include="..\TrainingProject.DAL\TrainingProject.DAL.csproj" />
   </ItemGroup>
 

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "zwKjpCdTWO2XT68eZX8mxc4EiXfMcugKby63gm0m+j4=",
-  "Source": "TrainingProject.api",
-  "BasePath": "_content/TrainingProject.api",
+  "Hash": "jYCwArKC1t9a+HIuEYchnTHrq0BGTLp7BEYIMNbXgAc=",
+  "Source": "TrainingProject.Api",
+  "BasePath": "_content/TrainingProject.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
