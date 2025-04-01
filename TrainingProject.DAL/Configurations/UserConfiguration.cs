@@ -14,7 +14,7 @@ namespace TrainingProject.DAL.Configurations
 
             builder.HasMany<Report>(x => x.Reports)
                 .WithOne(x => x.User)
-                .HasForeignKey(x => x.User.Id)
+                .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id);
         }
     }
