@@ -20,10 +20,14 @@ namespace TrainingProject.Application.Services
         private readonly IMapper _mapper;
         private readonly ILogger _logger;
 
-        public ReportService(IBaseRepository<Report> reportRepository, ILogger logger)
+        public ReportService(IBaseRepository<Report> reportRepository, ILogger logger, IReportValidator reportValidator, IMapper mapper,
+            IBaseRepository<User> userRepository)
         {
             _reportRepository = reportRepository;
             _logger = logger;
+            _reportValidator = reportValidator;
+            _mapper = mapper;
+            _userRepository = userRepository;
         }
 
         /// <inheritdoc />
