@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4pCH2B9n0aY=",
+  "dgSpecHash": "/cXXx5ViiIs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\TrainingProject.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Rodion Kondrashin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",

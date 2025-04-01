@@ -79,3 +79,7 @@ C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\obj\Debug\net8.0\Training.0A40F0F1.Up2Date
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll

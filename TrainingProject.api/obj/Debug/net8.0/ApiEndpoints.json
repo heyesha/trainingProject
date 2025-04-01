@@ -142,7 +142,7 @@
   {
     "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
     "Method": "GetUserReports",
-    "RelativePath": "reports/{userId}",
+    "RelativePath": "api/v1/ReportConroller/reports/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

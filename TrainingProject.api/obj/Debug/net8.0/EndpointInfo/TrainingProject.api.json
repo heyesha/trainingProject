@@ -1,11 +1,17 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "TrainingProject.Api",
-    "version": "1.0"
+    "title": "TrainingProject.API",
+    "description": "This is version 1.0",
+    "termsOfService": "https://www.google.com/",
+    "contact": {
+      "name": "My contact",
+      "url": "https://www.google.com/"
+    },
+    "version": "v1"
   },
   "paths": {
-    "/reports/{userId}": {
+    "/api/v1/ReportConroller/reports/{userId}": {
       "get": {
         "tags": [
           "ReportConroller"
@@ -427,6 +433,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Введите пожалуйста валидный токен",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
