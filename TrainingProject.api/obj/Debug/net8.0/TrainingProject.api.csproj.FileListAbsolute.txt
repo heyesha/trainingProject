@@ -83,3 +83,5 @@ C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Http.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\TrainingProject.Api.xml
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\obj\Debug\net8.0\TrainingProject.Api.xml

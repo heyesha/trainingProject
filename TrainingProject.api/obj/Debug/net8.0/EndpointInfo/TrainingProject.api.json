@@ -16,10 +16,13 @@
         "tags": [
           "ReportConroller"
         ],
+        "summary": "Получение всех отчётов пользователя по его ID",
+        "description": "Request for get all user's report\r\n\r\n    GET\r\n    {\r\n        \"id\": 1\r\n    {",
         "parameters": [
           {
             "name": "userId",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "integer",
@@ -67,6 +70,12 @@
                 }
               }
             }
+          },
+          "200:": {
+            "description": "Если отчёты пользователя были найдены"
+          },
+          "400:": {
+            "description": "Если отчёты пользователя не были найдены"
           }
         }
       }
@@ -76,10 +85,13 @@
         "tags": [
           "ReportConroller"
         ],
+        "summary": "Получение одного отчёта по ID",
+        "description": "Request for get report\r\n\r\n    GET\r\n    {\r\n        \"id\": 1\r\n    {",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "integer",
@@ -127,6 +139,12 @@
                 }
               }
             }
+          },
+          "200:": {
+            "description": "Если отчёт был найден"
+          },
+          "400:": {
+            "description": "Если отчёт не был найден"
           }
         }
       },
@@ -134,10 +152,13 @@
         "tags": [
           "ReportConroller"
         ],
+        "summary": "Удаление отчёта",
+        "description": "Request for delete report\r\n\r\n    DELETE\r\n    {\r\n        \"id\": 1\r\n    {",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "integer",
@@ -185,6 +206,12 @@
                 }
               }
             }
+          },
+          "200:": {
+            "description": "Если отчёт был удалён"
+          },
+          "400:": {
+            "description": "Если отчёт не был удалён"
           }
         }
       }
@@ -194,7 +221,10 @@
         "tags": [
           "ReportConroller"
         ],
+        "summary": "Создание отчёта",
+        "description": "Request for create report\r\n\r\n    POST\r\n    {\r\n        \"name\": \"Report #1\",\r\n        \"description\": \"Test report\",\r\n        \"userId\": 1\r\n    {",
         "requestBody": {
+          "description": "",
           "content": {
             "application/json": {
               "schema": {
@@ -253,6 +283,12 @@
                 }
               }
             }
+          },
+          "200:": {
+            "description": "Если отчёт создался"
+          },
+          "400:": {
+            "description": "Если отчёт не был создан"
           }
         }
       },
@@ -260,7 +296,10 @@
         "tags": [
           "ReportConroller"
         ],
+        "summary": "Обновление отчёта",
+        "description": "Request for update report\r\n\r\n    PUT\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"Report name\",\r\n        \"description\": \"Report description\"\r\n    {",
         "requestBody": {
+          "description": "",
           "content": {
             "application/json": {
               "schema": {
@@ -319,6 +358,12 @@
                 }
               }
             }
+          },
+          "200:": {
+            "description": "Если отчёт был обновлён"
+          },
+          "400:": {
+            "description": "Если отчёт не был обновлён"
           }
         }
       }
