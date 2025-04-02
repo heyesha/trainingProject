@@ -18,6 +18,11 @@
             <param name="dto"></param>
             <returns></returns>
         </member>
+        <member name="T:TrainingProject.Api.Controlers.TokenController">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:TrainingProject.Api.Startup.AddAuthenticationAndAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
             <summary>
             Подключение аутентификации и авторизации
@@ -30,7 +35,7 @@
             </summary>
             <param name="services"></param>
         </member>
-        <member name="M:TrainingProject.api.Controlers.ReportConroller.GetUserReports(System.Int64)">
+        <member name="M:TrainingProject.api.Controlers.ReportController.GetUserReports(System.Int64)">
             <summary>
             Получение всех отчётов пользователя по его ID
             </summary>
@@ -47,7 +52,7 @@
             <response code="200:">Если отчёты пользователя были найдены</response>
             <response code="400:">Если отчёты пользователя не были найдены</response>
         </member>
-        <member name="M:TrainingProject.api.Controlers.ReportConroller.GetReport(System.Int64)">
+        <member name="M:TrainingProject.api.Controlers.ReportController.GetReport(System.Int64)">
             <summary>
             Получение одного отчёта по ID
             </summary>
@@ -64,7 +69,7 @@
             <response code="200:">Если отчёт был найден</response>
             <response code="400:">Если отчёт не был найден</response>
         </member>
-        <member name="M:TrainingProject.api.Controlers.ReportConroller.DeleteReport(System.Int64)">
+        <member name="M:TrainingProject.api.Controlers.ReportController.DeleteReport(System.Int64)">
             <summary>
             Удаление отчёта
             </summary>
@@ -81,7 +86,7 @@
             <response code="200:">Если отчёт был удалён</response>
             <response code="400:">Если отчёт не был удалён</response>
         </member>
-        <member name="M:TrainingProject.api.Controlers.ReportConroller.CreateReport(TrainingProject.Domain.Dto.Report.CreateReportDto)">
+        <member name="M:TrainingProject.api.Controlers.ReportController.CreateReport(TrainingProject.Domain.Dto.Report.CreateReportDto)">
             <summary>
             Создание отчёта
             </summary>
@@ -100,7 +105,7 @@
             <response code="200:">Если отчёт создался</response>
             <response code="400:">Если отчёт не был создан</response>
         </member>
-        <member name="M:TrainingProject.api.Controlers.ReportConroller.UpdateReport(TrainingProject.Domain.Dto.Report.UpdateReportDto)">
+        <member name="M:TrainingProject.api.Controlers.ReportController.UpdateReport(TrainingProject.Domain.Dto.Report.UpdateReportDto)">
             <summary>
             Обновление отчёта
             </summary>

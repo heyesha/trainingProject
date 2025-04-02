@@ -47,26 +47,6 @@ public class TokenService : ITokenService
         randomNumberGenerator.GetBytes(randomNumbers);
         return Convert.ToBase64String(randomNumbers);
     }
-
-    public ClaimsPrincipal GetPrincipalFromExpiredToken(string accessToken)
-    {
-        var tokenValidationsParameters = new TokenValidationParameters()
-        {
-            ValidateAudience = true,
-            ValidateIssuer = true,
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtKey)),
-            ValidateLifetime = true,
-        };
-        var tokenHandler = new JwtSecurityTokenHandler();
-        var claimsPrincipal = tokenHandler.ValidateToken(accessToken, tokenValidationsParameters, out var securityToken);
-        if (securityToken is not JwtSecurityToken jwtSecurityToken || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
-        {
-            throw new SecurityTokenException(ErrorMessage.InvalidToken);
-        }
-        return claimsPrincipal;
-    }
-
     public async Task<BaseResult<TokenDto>> RefreshToken(TokenDto dto)
     {
         var accessToken = dto.AccessToken;
@@ -101,4 +81,26 @@ public class TokenService : ITokenService
             }
         };
     }
+
+    public ClaimsPrincipal GetPrincipalFromExpiredToken(string accessToken)
+    {
+        var tokenValidationsParameters = new TokenValidationParameters()
+        {
+            ValidateAudience = true,
+            ValidateIssuer = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtKey)),
+            ValidateLifetime = true,
+            ValidAudience = _audience,
+            ValidIssuer = _issuer
+        };
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var claimsPrincipal = tokenHandler.ValidateToken(accessToken, tokenValidationsParameters, out var securityToken);
+        if (securityToken is not JwtSecurityToken jwtSecurityToken || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+        {
+            throw new SecurityTokenException(ErrorMessage.InvalidToken);
+        }
+        return claimsPrincipal;
+    }
+
 }

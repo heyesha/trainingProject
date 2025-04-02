@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "ContainingType": "TrainingProject.api.Controlers.ReportController",
     "Method": "CreateReport",
-    "RelativePath": "api/v1/ReportConroller",
+    "RelativePath": "api/v1/Report",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -35,9 +35,9 @@
     ]
   },
   {
-    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "ContainingType": "TrainingProject.api.Controlers.ReportController",
     "Method": "UpdateReport",
-    "RelativePath": "api/v1/ReportConroller",
+    "RelativePath": "api/v1/Report",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -70,9 +70,9 @@
     ]
   },
   {
-    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "ContainingType": "TrainingProject.api.Controlers.ReportController",
     "Method": "GetReport",
-    "RelativePath": "api/v1/ReportConroller/{id}",
+    "RelativePath": "api/v1/Report/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -105,9 +105,9 @@
     ]
   },
   {
-    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "ContainingType": "TrainingProject.api.Controlers.ReportController",
     "Method": "DeleteReport",
-    "RelativePath": "api/v1/ReportConroller/{id}",
+    "RelativePath": "api/v1/Report/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -140,9 +140,9 @@
     ]
   },
   {
-    "ContainingType": "TrainingProject.api.Controlers.ReportConroller",
+    "ContainingType": "TrainingProject.api.Controlers.ReportController",
     "Method": "GetUserReports",
-    "RelativePath": "api/v1/ReportConroller/reports/{userId}",
+    "RelativePath": "api/v1/Report/reports/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -171,6 +171,99 @@
           "text/json"
         ],
         "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainingProject.Api.Controlers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainingProject.Domain.Dto.User.LoginUserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainingProject.Domain.Result.BaseResult\u00601[[TrainingProject.Domain.Dto.TokenDto, TrainingProject.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainingProject.Api.Controlers.TokenController",
+    "Method": "RefreshToken",
+    "RelativePath": "refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenDto",
+        "Type": "TrainingProject.Domain.Dto.TokenDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainingProject.Domain.Result.BaseResult\u00601[[TrainingProject.Domain.Dto.TokenDto, TrainingProject.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainingProject.Api.Controlers.AuthController",
+    "Method": "Register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainingProject.Domain.Dto.User.RegisterUserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainingProject.Domain.Result.BaseResult\u00601[[TrainingProject.Domain.Dto.User.UserDto, TrainingProject.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   }

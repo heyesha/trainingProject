@@ -79,7 +79,7 @@ public class AuthService : IAuthService
     private string HashPassword(string password)
     {
         var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(password));
-        return BitConverter.ToString(bytes).ToLower();
+        return Convert.ToBase64String(bytes);
     }
 
     public async Task<BaseResult<TokenDto>> Login(LoginUserDto dto)
@@ -128,13 +128,15 @@ public class AuthService : IAuthService
             {
                 userToken.RefreshToken = refreshToken;
                 userToken.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(7);
+
+                await _userTokenRepository.UpdateAsync(userToken);
             }
 
             return new BaseResult<TokenDto>()
             {
                 Data = new TokenDto()
                 {
-                    AccessToken = "",
+                    AccessToken = accessToken,
                     RefreshToken = refreshToken
                 }
             };

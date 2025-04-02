@@ -11,10 +11,128 @@
     "version": "v1"
   },
   "paths": {
-    "/api/v1/ReportConroller/reports/{userId}": {
+    "/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Регистрация пользователя",
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDtoBaseResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDtoBaseResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDtoBaseResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Логин пользователя",
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/Report/reports/{userId}": {
       "get": {
         "tags": [
-          "ReportConroller"
+          "Report"
         ],
         "summary": "Получение всех отчётов пользователя по его ID",
         "description": "Request for get all user's report\r\n\r\n    GET\r\n    {\r\n        \"userId\": 1\r\n    {",
@@ -80,10 +198,10 @@
         }
       }
     },
-    "/api/v1/ReportConroller/{id}": {
+    "/api/v1/Report/{id}": {
       "get": {
         "tags": [
-          "ReportConroller"
+          "Report"
         ],
         "summary": "Получение одного отчёта по ID",
         "description": "Request for get report\r\n\r\n    GET\r\n    {\r\n        \"id\": 1\r\n    {",
@@ -150,7 +268,7 @@
       },
       "delete": {
         "tags": [
-          "ReportConroller"
+          "Report"
         ],
         "summary": "Удаление отчёта",
         "description": "Request for delete report\r\n\r\n    DELETE\r\n    {\r\n        \"id\": 1\r\n    {",
@@ -216,10 +334,10 @@
         }
       }
     },
-    "/api/v1/ReportConroller": {
+    "/api/v1/Report": {
       "post": {
         "tags": [
-          "ReportConroller"
+          "Report"
         ],
         "summary": "Создание отчёта",
         "description": "Request for create report\r\n\r\n    POST\r\n    {\r\n        \"name\": \"Report #1\",\r\n        \"description\": \"Test report\",\r\n        \"userId\": 1\r\n    {",
@@ -294,7 +412,7 @@
       },
       "put": {
         "tags": [
-          "ReportConroller"
+          "Report"
         ],
         "summary": "Обновление отчёта",
         "description": "Request for update report\r\n\r\n    PUT\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"Report name\",\r\n        \"description\": \"Report description\"\r\n    {",
@@ -367,6 +485,63 @@
           }
         }
       }
+    },
+    "/refresh": {
+      "post": {
+        "tags": [
+          "Token"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenDtoBaseResult"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -385,6 +560,20 @@
           "userId": {
             "type": "integer",
             "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginUserDto": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -415,6 +604,24 @@
           }
         },
         "additionalProperties": { }
+      },
+      "RegisterUserDto": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordConfirm": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "ReportDto": {
         "type": "object",
@@ -460,6 +667,42 @@
         },
         "additionalProperties": false
       },
+      "TokenDto": {
+        "type": "object",
+        "properties": {
+          "accessToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TokenDtoBaseResult": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "errorMessage": {
+            "type": "string",
+            "nullable": true
+          },
+          "errorCode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/TokenDto"
+          }
+        },
+        "additionalProperties": false
+      },
       "UpdateReportDto": {
         "type": "object",
         "properties": {
@@ -474,6 +717,38 @@
           "description": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDto": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDtoBaseResult": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "errorMessage": {
+            "type": "string",
+            "nullable": true
+          },
+          "errorCode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/UserDto"
           }
         },
         "additionalProperties": false

@@ -165,7 +165,7 @@ namespace TrainingProject.Application.Services
 
             if (!reports.Any())
             {
-                _logger.Warning(ErrorMessage.ReportsNotFound, reports.Length);
+               _logger.Warning(ErrorMessage.ReportsNotFound, reports.Length);
                 return new CollectionResult<ReportDto>()
                 {
                     ErrorMessage = ErrorMessage.ReportsNotFound,
