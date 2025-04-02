@@ -85,3 +85,11 @@ C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\TrainingProject.Api.xml
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\obj\Debug\net8.0\TrainingProject.Api.xml
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

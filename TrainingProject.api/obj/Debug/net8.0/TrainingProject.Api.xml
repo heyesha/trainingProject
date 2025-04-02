@@ -15,7 +15,7 @@
             
                 GET
                 {
-                    "id": 1
+                    "userId": 1
                 {
             </remarks>
             <response code="200:">Если отчёты пользователя были найдены</response>
@@ -92,6 +92,12 @@
             </remarks>
             <response code="200:">Если отчёт был обновлён</response>
             <response code="400:">Если отчёт не был обновлён</response>
+        </member>
+        <member name="M:TrainingProject.Api.Startup.AddAuthenticationAndAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            Подключение аутентификации и авторизации
+            </summary>
+            <param name="services"></param>
         </member>
         <member name="M:TrainingProject.Api.Startup.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>

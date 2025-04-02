@@ -17,7 +17,7 @@
           "ReportConroller"
         ],
         "summary": "Получение всех отчётов пользователя по его ID",
-        "description": "Request for get all user's report\r\n\r\n    GET\r\n    {\r\n        \"id\": 1\r\n    {",
+        "description": "Request for get all user's report\r\n\r\n    GET\r\n    {\r\n        \"userId\": 1\r\n    {",
         "parameters": [
           {
             "name": "userId",

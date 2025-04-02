@@ -120,6 +120,9 @@
   <data name="InternalServerError" xml:space="preserve">
     <value>Внутренняя ошибка сервера</value>
   </data>
+  <data name="PasswordNotEqualsPasswordConfirm" xml:space="preserve">
+    <value>Пароли не совпадают</value>
+  </data>
   <data name="ReportAlreadyExists" xml:space="preserve">
     <value>Отчёт с таким названием уже есть</value>
   </data>
@@ -128,6 +131,9 @@
   </data>
   <data name="ReportsNotFound" xml:space="preserve">
     <value>Отчёты не найдены</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>Пользователь с такими данными уже существует</value>
   </data>
   <data name="UserNotFound" xml:space="preserve">
     <value>Пользователь не найден</value>

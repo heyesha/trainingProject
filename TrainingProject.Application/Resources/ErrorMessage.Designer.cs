@@ -70,6 +70,15 @@ namespace TrainingProject.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Пароли не совпадают.
+        /// </summary>
+        internal static string PasswordNotEqualsPasswordConfirm {
+            get {
+                return ResourceManager.GetString("PasswordNotEqualsPasswordConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Отчёт с таким названием уже есть.
         /// </summary>
         internal static string ReportAlreadyExists {
@@ -93,6 +102,15 @@ namespace TrainingProject.Application.Resources {
         internal static string ReportsNotFound {
             get {
                 return ResourceManager.GetString("ReportsNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пользователь с такими данными уже существует.
+        /// </summary>
+        internal static string UserAlreadyExists {
+            get {
+                return ResourceManager.GetString("UserAlreadyExists", resourceCulture);
             }
         }
         
