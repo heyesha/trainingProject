@@ -66,9 +66,17 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [

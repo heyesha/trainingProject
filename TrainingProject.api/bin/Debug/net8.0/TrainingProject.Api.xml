@@ -4,6 +4,32 @@
         <name>TrainingProject.Api</name>
     </assembly>
     <members>
+        <member name="M:TrainingProject.Api.Controlers.AuthController.Register(TrainingProject.Domain.Dto.User.RegisterUserDto)">
+            <summary>
+            Регистрация пользователя
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TrainingProject.Api.Controlers.AuthController.Login(TrainingProject.Domain.Dto.User.LoginUserDto)">
+            <summary>
+            Логин пользователя
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TrainingProject.Api.Startup.AddAuthenticationAndAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            Подключение аутентификации и авторизации
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:TrainingProject.Api.Startup.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Подключение Swagger
+            </summary>
+            <param name="services"></param>
+        </member>
         <member name="M:TrainingProject.api.Controlers.ReportConroller.GetUserReports(System.Int64)">
             <summary>
             Получение всех отчётов пользователя по его ID
@@ -92,18 +118,6 @@
             </remarks>
             <response code="200:">Если отчёт был обновлён</response>
             <response code="400:">Если отчёт не был обновлён</response>
-        </member>
-        <member name="M:TrainingProject.Api.Startup.AddAuthenticationAndAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
-            <summary>
-            Подключение аутентификации и авторизации
-            </summary>
-            <param name="services"></param>
-        </member>
-        <member name="M:TrainingProject.Api.Startup.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
-            <summary>
-            Подключение Swagger
-            </summary>
-            <param name="services"></param>
         </member>
     </members>
 </doc>

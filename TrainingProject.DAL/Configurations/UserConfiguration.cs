@@ -16,6 +16,17 @@ namespace TrainingProject.DAL.Configurations
                 .WithOne(x => x.User)
                 .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id);
+
+            builder.HasData(new List<User>()
+            {
+                new User()
+                {
+                    Id = 1,
+                    Login = "Heyesha123",
+                    Password = new string('-', 20),
+                    CreatedAt = DateTime.UtcNow
+                }
+            });
         }
     }
 }

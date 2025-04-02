@@ -26,6 +26,8 @@ namespace TrainingProject.Application.DependencyInjection
             services.AddScoped<IValidator<UpdateReportDto>, UpdateReportValidator>();
 
             services.AddScoped<IReportService, ReportService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ITokenService, TokenService>();
         }
     }
 }

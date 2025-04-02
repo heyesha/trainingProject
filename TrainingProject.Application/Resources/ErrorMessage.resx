@@ -120,6 +120,9 @@
   <data name="InternalServerError" xml:space="preserve">
     <value>Внутренняя ошибка сервера</value>
   </data>
+  <data name="PasswordIsWrong" xml:space="preserve">
+    <value>Неверный пароль</value>
+  </data>
   <data name="PasswordNotEqualsPasswordConfirm" xml:space="preserve">
     <value>Пароли не совпадают</value>
   </data>

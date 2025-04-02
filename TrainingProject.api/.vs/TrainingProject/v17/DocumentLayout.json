@@ -7,11 +7,17 @@
       "RelativeMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.Api.csproj|solutionrelative:controlers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.Api.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.api\\controlers\\reportconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.Api.csproj|solutionrelative:controlers\\reportconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91337B12-C9F4-4BF8-B7B8-3B5842E73E3F}|..\\TrainingProject.Domain\\TrainingProject.Domain.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.domain\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.Api.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.api\\controlers\\reportconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C6FF0C-A081-4967-BFE4-5D2B5E189CD4}|TrainingProject.Api.csproj|solutionrelative:controlers\\reportconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85A1F46E-ABF8-4331-A953-0FF877A2D245}|..\\TrainingProject.Application\\TrainingProject.Application.csproj|c:\\users\\rodion kondrashin\\desktop\\job\\projects\\trainingproject\\trainingproject.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 303,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,13 +58,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\TrainingProject.Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:47:46.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\TrainingProject.Domain\\Interfaces\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Domain\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeToolTip": "..\\TrainingProject.Domain\\Interfaces\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:45:24.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controlers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\AuthController.cs",
               "RelativeToolTip": "Controlers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T04:49:56.418Z",
               "EditorCaption": ""
@@ -66,58 +98,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportConroller.cs",
-              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\ReportConroller.cs",
-              "RelativeDocumentMoniker": "Controlers\\ReportConroller.cs",
-              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\ReportConroller.cs",
-              "RelativeToolTip": "Controlers\\ReportConroller.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:07:01.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\AuthService.cs",
               "RelativeToolTip": "..\\TrainingProject.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwHcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T07:41:07.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "ReportConroller.cs",
+              "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\ReportConroller.cs",
+              "RelativeDocumentMoniker": "Controlers\\ReportConroller.cs",
+              "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Controlers\\ReportConroller.cs",
+              "RelativeToolTip": "Controlers\\ReportConroller.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:07:01.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReportService.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "..\\TrainingProject.Application\\Services\\ReportService.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.Application\\Services\\ReportService.cs",
               "RelativeToolTip": "..\\TrainingProject.Application\\Services\\ReportService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA9wGIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowGIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T07:49:42.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T13:51:05.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rodion Kondrashin\\Desktop\\Job\\Projects\\TrainingProject\\TrainingProject.api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

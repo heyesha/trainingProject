@@ -10,6 +10,7 @@
         UserAlreadyExists = 12,
 
         PasswordNotEqualsPasswordConfirm = 21,
+        PasswordIsWrong = 22,
 
         InternalServerError = 10
     }
