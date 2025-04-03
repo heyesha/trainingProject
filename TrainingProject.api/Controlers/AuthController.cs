@@ -9,7 +9,7 @@ using TrainingProject.Domain.Result;
 namespace TrainingProject.Api.Controlers;
 
 [ApiController]
-public class AuthController : Controller
+public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
 

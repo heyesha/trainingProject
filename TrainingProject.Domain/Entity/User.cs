@@ -13,6 +13,7 @@ namespace TrainingProject.Domain.Entity
         public string Password { get; set; }
 
         public List<Report> Reports { get; set; }
+        public List<Role> Roles { get; set; }
 
         public UserToken UserToken { get; set; }
 

@@ -17,6 +17,13 @@ namespace TrainingProject.DAL.Configurations
                 .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id);
 
+            builder.HasMany(x => x.Roles)
+                .WithMany(x => x.Users)
+                .UsingEntity<UserRole>(
+                    l => l.HasOne<Role>().WithMany().HasForeignKey(x => x.RoleId),
+                    l => l.HasOne<User>().WithMany().HasForeignKey(x => x.UserId)
+                ); 
+
             builder.HasData(new List<User>()
             {
                 new User()

@@ -9,9 +9,13 @@
         UserNotFound = 11,
         UserAlreadyExists = 12,
         UserUnauthorizedAccessException = 13,
+        UserAlreadyExistsThisRole = 14,
 
         PasswordNotEqualsPasswordConfirm = 21,
         PasswordIsWrong = 22,
+
+        RoleAlreadyExists = 31,
+        RoleNotFound = 32,
 
         InternalServerError = 10
     }

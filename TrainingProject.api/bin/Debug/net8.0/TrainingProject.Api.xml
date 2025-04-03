@@ -18,6 +18,76 @@
             <param name="dto"></param>
             <returns></returns>
         </member>
+        <member name="M:TrainingProject.Api.Controlers.RoleController.Create(TrainingProject.Domain.Dto.Role.CreateRoleDto)">
+            <summary>
+            Создание роли с указанием названия
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <remarks>
+            Sample request:
+            
+                POST
+                {
+                    "name": "User"
+                {
+            </remarks>
+            <response code="200:">Если роль создалась</response>
+            <response code="400:">Если роль не была создана</response>
+        </member>
+        <member name="M:TrainingProject.Api.Controlers.RoleController.Delete(System.Int64)">
+            <summary>
+            Удаление роли с указанием идентификатора
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <remarks>
+            Sample request:
+            
+                DELETE
+                {
+                    "id": 1
+                {
+            </remarks>
+            <response code="200:">Если роль удалена</response>
+            <response code="400:">Если роль не была удалена</response>
+        </member>
+        <member name="M:TrainingProject.Api.Controlers.RoleController.Update(TrainingProject.Domain.Dto.Role.RoleDto)">
+            <summary>
+            Обновление роли с указанием идентификатора и названия
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <remarks>
+            Sample request:
+            
+                PUT
+                {
+                    "id": 1,
+                    "name": "Admin"
+                {
+            </remarks>
+            <response code="200:">Если роль обновилась</response>
+            <response code="400:">Если роль не была обновлена</response>
+        </member>
+        <member name="M:TrainingProject.Api.Controlers.RoleController.AddRoleForUser(TrainingProject.Domain.Dto.Role.UserRoleDto)">
+            <summary>
+            Добавление роли пользователю
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <remarks>
+            Request for create role for user:
+            
+                POST
+                {
+                    "login": "User #1",
+                    "roleName": "Admin"
+                {
+            </remarks>
+            <response code="200:">Если роль была добавлена</response>
+            <response code="400:">Если роль не была добавлена</response>
+        </member>
         <member name="T:TrainingProject.Api.Controlers.TokenController">
             <summary>
             
