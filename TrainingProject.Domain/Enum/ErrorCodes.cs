@@ -8,6 +8,7 @@
 
         UserNotFound = 11,
         UserAlreadyExists = 12,
+        UserUnauthorizedAccessException = 13,
 
         PasswordNotEqualsPasswordConfirm = 21,
         PasswordIsWrong = 22,

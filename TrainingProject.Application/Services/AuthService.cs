@@ -34,6 +34,7 @@ public class AuthService : IAuthService
     }
     public async Task<BaseResult<UserDto>> Register(RegisterUserDto dto)
     {
+        throw new UnauthorizedAccessException("UnauthorizedAccessException");
         if (dto.Password != dto.PasswordConfirm)
         {
             return new BaseResult<UserDto>()
@@ -43,38 +44,26 @@ public class AuthService : IAuthService
             };
         }
 
-        try
+        var user = await _userRepository.GetAll().FirstOrDefaultAsync(x => x.Login == dto.Login);
+        if (user != null)
         {
-            var user = await _userRepository.GetAll().FirstOrDefaultAsync(x => x.Login == dto.Login);
-            if (user != null)
-            {
-                return new BaseResult<UserDto>()
-                {
-                    ErrorMessage = ErrorMessage.UserAlreadyExists,
-                    ErrorCode = (int)ErrorCodes.UserAlreadyExists
-                };
-            }
-            var hashUserPassword = HashPassword(dto.Password);
-            user = new User()
-            {
-                Login = dto.Login,
-                Password = hashUserPassword
-            };
-            await _userRepository.CreateAsync(user);
             return new BaseResult<UserDto>()
             {
-                Data = _mapper.Map<UserDto>(user),
+                ErrorMessage = ErrorMessage.UserAlreadyExists,
+                ErrorCode = (int)ErrorCodes.UserAlreadyExists
             };
         }
-        catch (Exception ex)
+        var hashUserPassword = HashPassword(dto.Password);
+        user = new User()
         {
-            _logger.Error(ex, ex.Message);
-            return new BaseResult<UserDto>()
-            {
-                ErrorMessage = ErrorMessage.InternalServerError,
-                ErrorCode = (int)ErrorCodes.InternalServerError
-            };
-        }
+            Login = dto.Login,
+            Password = hashUserPassword
+        };
+        await _userRepository.CreateAsync(user);
+        return new BaseResult<UserDto>()
+        {
+            Data = _mapper.Map<UserDto>(user),
+        };
     }
     private string HashPassword(string password)
     {

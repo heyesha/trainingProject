@@ -23,6 +23,11 @@
             
             </summary>
         </member>
+        <member name="T:TrainingProject.Api.Middlewares.ExceptionHandlerMiddleware">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:TrainingProject.Api.Startup.AddAuthenticationAndAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
             <summary>
             Подключение аутентификации и авторизации

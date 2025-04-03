@@ -1,5 +1,6 @@
 using Serilog;
 using TrainingProject.Api;
+using TrainingProject.Api.Middlewares;
 using TrainingProject.Application.DependencyInjection;
 using TrainingProject.DAL.DependencyInjection;
 using TrainingProject.Domain.Settings;
@@ -20,6 +21,8 @@ builder.Services.AddApplication();
 
 var app = builder.Build();
 
+app.UseMiddleware<ExceptionHandlerMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -30,6 +33,8 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty;
     });
 }
+
+app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseHttpsRedirection();
 
