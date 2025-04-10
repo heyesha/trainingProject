@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using TrainingProject.DAL.Interceptors;
 using TrainingProject.DAL.Repositories;
 using TrainingProject.Domain.Entity;
+using TrainingProject.Domain.Interfaces.Databases;
 using TrainingProject.Domain.Interfaces.Repositories;
 
 namespace TrainingProject.DAL.DependencyInjection
@@ -24,6 +25,7 @@ namespace TrainingProject.DAL.DependencyInjection
 
         private static void InitRepositories(this IServiceCollection services)
         {
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IBaseRepository<Report>, BaseRepository<Report>>();
             services.AddScoped<IBaseRepository<Role>, BaseRepository<Role>>();
             services.AddScoped<IBaseRepository<UserRole>, BaseRepository<UserRole>>();

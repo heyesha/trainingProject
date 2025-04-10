@@ -10,3 +10,4 @@ C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\refint\TrainingProject.Domain.dll
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.pdb
 C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\ref\TrainingProject.Domain.dll
+C:\Users\Rodion Kondrashin\Desktop\Job\Projects\TrainingProject\TrainingProject.Domain\obj\Debug\net8.0\TrainingProject.Domain.csproj.AssemblyReference.cache
